@@ -1,11 +1,19 @@
+<!--My Portfolio 3 -->
+<!--***IMPORTANT jQUERY SECTION IS LINKED DOWNLOAD IT OFF GITHUB***-->
+<!--In this project i used HTML 5 CSS3 Bootstrap Javascript and jQuery-->
+
+
 <html>
     <head>
+        
+        <!--Below is the code that liks all of my style, css, and javascript pages!-->
+        
         <title>Ad</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+        <link type="text/css" rel="stylesheet" href="myowncss/custom-style.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
         <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
@@ -20,128 +28,168 @@
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style10.css" />
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
-        		<meta name="description" content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
-		<meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
-		<meta name="author" content="Sara Soueidan for Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component1.css" />
-		<script src="js/modernizr-2.6.2.min.js"></script>
-<!--HI-->
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-7243260-2']);
-_gaq.push(['_trackPageview']);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
-        
+        <meta name="description" content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
+        <meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
+        <meta name="author" content="Sara Soueidan for Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component1.css" />
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-7243260-2']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+
     </head>
+    
+    <!--Below is the code that allowed me to put a downloaded mp4 video as a giant background instead of an image or color -->
+    
     <body id="home">
         <video autoplay loop poster="polina.jpg" id="bgvid">
-            <source src="video/Black And White Nature.mp4" type="video/mp4">
+            
+            <!--I set the source to a video that I put inside i folder i called on it with a slash "/"-->
+            
+            <source src="video/The Beauty of Pollination - Moving Art™.mp4" type="video/mp4">
         </video>
-			<div class="component">
-				<!-- Start Nav Structure -->
-				<button class="cn-button" id="cn-button">+</button>
-				<div class="cn-wrapper" id="cn-wrapper">
-				    <ul>
-				      <li><a href="#"><span class="icon-picture"></span></a></li>
-				      <li><a href="#"><span class="icon-headphones"></span></a></li>
-				      <li><a href="#"><span class="icon-home"></span></a></li>
-				      <li><a href="#"><span class="icon-facetime-video"></span></a></li>
-				      <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
-				     </ul>
-				</div>
-				<div id="cn-overlay" class="cn-overlay"></div>
-				<!-- End Nav Structure -->
-			</div>
-		</div><!-- /container -->
-		<script src="js/polyfills.js"></script>
-		<script src="js/demo1.js"></script>
-		<!-- For the demo ad only -->   
-        <div id="accordion"></div>
-        <div id="collapseOne" class="panel-collapse collapse in">
-            <div class="panel-body">
-                
-                
-                
-                
-                
-                
-                <ul id="navbar" class="nav nav-tabs" role="tablist">
-                    <li><a id="indexlink" href="#home"><span class="dd animated bounceInDown">Home</span></a></li>
-                    <li><a id="indexlink" href="#deals"><span class="dd animated bounceInDown">Projects</span></a></li>
-                    <li><a id="indexlink" href="#contactme"><span class="dd animated bounceInDown">Technologies</span></a></li>
-                    <div class="navbar-text pull-right">
-                        <span class="hi animated fadeInDown"><a style="text-align:center" id=facebook href="https://www.facebook.com/denis.makhlin"><i class="fa fa-facebook-square fa-2x"></i></a> <a id=twitter href="https://twitter.com/denismakhlin"><i class="fa fa-twitter-square fa-2x"></i></a> <a id=instagram href="http://instagram.com/denismakhlin"><i class="fa fa-instagram fa-2x"></i></a> <a id=googleplus href="https://plus.google.com/u/0/+DenisMakhlin/about"><i class="fa fa-google-plus-square fa-2x"></i></a> <a id=github href="https://github.com/denismakhlin"><i class="fa fa-github fa-2x"></i></a> <a id=skype href="https://secure.skype.com/portal/overview"><i class="fa fa-skype fa-2x"></i></a> </span> 
-                    </div>
+        <div class="component">
+            
+            <!--this is the beginning code that shows up on the bottom of my website that opens up a small nav-bar-->
+            
+            <!--I did this by adding button classes and then later editting them in css-->
+            
+            <button class="cn-button" id="cn-button">+</button>
+            <div class="cn-wrapper" id="cn-wrapper">
+                <ul>
+                    <li><a href="#"><span class="icon-picture"></span></a></li>
+                    <li><a href="#"><span class="icon-headphones"></span></a></li>
+                    <li><a href="#"><span class="icon-home"></span></a></li>
+                    <li><a href="#"><span class="icon-facetime-video"></span></a></li>
+                    <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
                 </ul>
-                <div class="jumbotron" id="jumbotron">
-                    <div class="container">
-                        <div id="header" class="row text-center">
-                            <div id="logo">
-                                <span id="danger">
-                                    <span class="dd animated bounceInDown">D</span>
-                                    <span class="da animated bounceInDown">e</span>
-                                    <span class="dn animated bounceInDown">n</span>
-                                    <span class="dg animated bounceInDown">i</span>
-                                    <span class="de animated bounceInDown">s</span>
-                                </span>
-                                <span id="zone">
-                                    <span class="zz animated bounceInDown">M</span>
-                                    <span class="zo animated bounceInDown">a</span>
-                                    <span class="zn animated bounceInDown">k</span>
-                                    <span class="ze animated bounceInDown">h</span>
-                                    <span class="ze animated bounceInDown">l</span>
-                                    <span class="ze animated bounceInDown">i</span>
-                                    <span class="ze animated bounceInDown">n</span>
-                                </span>
-                            </div>
-                            <span class="hi animated fadeInDown" id="pindex3">Hello, my name is Denis Makhlin.
-                                I am a young web site designer 
-                                learning everything and anything in the field of computer science.
-                                I believe that computers are our future, so I am taking advantage
-                                of the opportunities that are handed to me. I am currently a 
-                                freshman attending Pasadena High School. I am also in a program 
-                                named, "The App Academy." Here, I am learning Web site, Mobile, and 
-                                Game Development. I am developing major skill in each one of these 
-                                categories, and I am committed into forming my career with each and 
-                                every one of them.  </span>
-                        </div>
-                        <p id="pindex2">Mobile | Web | Game</p>
-                        
-                        
-                        
+            </div>
+            <div id="cn-overlay" class="cn-overlay"></div>
+            
+            <!-- End Nav Structure -->
+        </div>
+    </div>
+    
+    <!-- /container -->
+    
+    <script src="js/polyfills.js"></script>
+    <script src="js/demo1.js"></script>
+    
+    <!--I used an accrordion function from bootstrap as a way to have 3 little webpages inside one big one so each one will look exctly the same-->  
+    
+    <div id="accordion"></div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+        <div class="panel-body">
+            
+            <!--I start off by putting a navbar from bootstrap which links to other parts of the page-->
+            
+            <ul id="navbar" class="nav nav-tabs" role="tablist">
+                <li><a id="indexlink" href="#home"><span class="dd animated bounceInDown">Home</span></a></li>
+                <li><a id="indexlink" href="#deals"><span class="dd animated bounceInDown">Projects</span></a></li>
+                <li><a id="indexlink" href="#contactme"><span class="dd animated bounceInDown">Technologies</span></a></li>
+                
+                <!--Below is the code that links all my social pages through little icons that I downloaded-->
+                
+                <div class="navbar-text pull-right">
+                    
+                    <!--I set a class for eat icon to have an animation which I edit the tim of in css-->
+                    
+                    <span class="hi animated fadeInDown"><a style="text-align:center" id=facebook href="https://www.facebook.com/denis.makhlin"><i class="fa fa-facebook-square fa-2x"></i></a> <a id=twitter href="https://twitter.com/denismakhlin"><i class="fa fa-twitter-square fa-2x"></i></a> <a id=instagram href="http://instagram.com/denismakhlin"><i class="fa fa-instagram fa-2x"></i></a> <a id=googleplus href="https://plus.google.com/u/0/+DenisMakhlin/about"><i class="fa fa-google-plus-square fa-2x"></i></a> <a id=github href="https://github.com/denismakhlin"><i class="fa fa-github fa-2x"></i></a> <a id=skype href="https://secure.skype.com/portal/overview"><i class="fa fa-skype fa-2x"></i></a> </span> 
+                </div>
+            </ul>
+            
+            <!--below is the code that I put into a jumbotron to have it's own column as a header of my name-->
+            
+            <div class="jumbotron" id="jumbotron">
+                <div class="container">
+                    <div id="header" class="row text-center">
+                        <div id="logo">
+                            
+                            <!--Inside this div I put a class on every letter of my name with its own animation each class has differnet two letters-->
+                            
+                            <span id="danger">
+                                <!--The <span> tag is used to group inline-elements in a document.
 
-                        <script type="text/javascript" src="script.js"></script>
-                        </body>
-                        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-                        <script src="js/bootstrap.min.js"></script>  
+                                    The <span> tag provides no visual change by itself.
+
+                                    The <span> tag provides a way to add a hook to a part of a text or a part of a document.-->
+                                
+                                <span class="dd animated bounceInDown">D</span>
+                                <span class="da animated bounceInDown">e</span>
+                                <span class="dn animated bounceInDown">n</span>
+                                <span class="dg animated bounceInDown">i</span>
+                                <span class="de animated bounceInDown">s</span>
+                            </span>
+                            <span id="zone">
+                                <span class="zz animated bounceInDown">M</span>
+                                <span class="zo animated bounceInDown">a</span>
+                                <span class="zn animated bounceInDown">k</span>
+                                <span class="ze animated bounceInDown">h</span>
+                                <span class="ze animated bounceInDown">l</span>
+                                <span class="ze animated bounceInDown">i</span>
+                                <span class="ze animated bounceInDown">n</span>
+                            </span>
+                        </div>
+                        <!--Below is the code that is my about me description it has its own animation and it is centered in css-->
+                        <span class="hi animated fadeInDown" id="pindex3">Hello, my name is Denis Makhlin.
+                            I am a young web site designer 
+                            learning everything and anything in the field of computer science.
+                            I believe that computers are our future, so I am taking advantage
+                            of the opportunities that are handed to me. I am currently a 
+                            freshman attending Pasadena High School. I am also in a program 
+                            named, "The App Academy." Here, I am learning Web site, Mobile, and 
+                            Game Development. I am developing major skill in each one of these 
+                            categories, and I am committed into forming my career with each and 
+                            every one of them.  </span>
                     </div>
+                    
+               <!--Bellow is a closer that I put on each of my little pages I put an id on it so I can center it n css-->
+                    
+                    <p id="pindex2">Mobile | Web | Game</p>
+
+
+                    <!--Below is the code that allows me to use certain bootstrap and javascript functions as in carousels and accordians and my little navigation-->
+                    
+                    <script type="text/javascript" src="script.js"></script>
+                    </body>
+                    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                    <script src="js/bootstrap.min.js"></script>  
                 </div>
             </div>
         </div>
+    </div>
 <body id="deals">
     <div id="deals">
         <div >
         </div>
-        
-       
-        <a href="index10.html">Index2</a>
-        
+
+        <!--Bellow is the code that enters into my second little part of my webpage using an accordian i use a collapse id system-->
+
         <div id="collapseTwo">
             <div class="panel-body">
                 <div class="jumbotron" id="jumbotron">
                     <div class="container">
                         <div id="header" class="row text-center">
                             <div id="logo">
+                                
+                                <!--Again her is the code inside the span tags that say words in a certain font--no animation this time-->
+                                
                                 <span id="danger">
                                     <span>P</span>
+                                    <span>r</span>
                                     <span>o</span>
                                     <span>j</span>
                                     <span>e</span>
@@ -150,84 +198,119 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                                     <span>s</span>
                                 </span>
                             </div>
+                            
+                            <!--Here I begin to add flip containers that are big tabs that flip when you hover over them-->
+                            
+                            <!--I start off by setting differnet classes for the front and back which I will later edit in my css-->
+                            
                             <div class="b1">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');"> 
                                     <div class="flipper">
+                                        
+                                        <!--Here is what i put inside the front part of my flip container-->
+                                        
                                         <div id="front" class="front">
                                             <p id="pfront">
                                                 Portfolio 1 | 2 | 3
                                                 <br><img id="imgturn" src="http://cdn.flaticon.com/png/256/1198.png" height="150" width="150">                    
 
                                             </p></div>
+                                        
+                                        <!--Here is what I put in the back part of my flip container-->
+                                        
                                         <div class="back">
-                                            <p id="firstline">I Want To Help You Out!</p>
+                                            <p id="firstline">Portfolio 1 | 2 | 3</p>
                                             |Project Type|
-                                            <br>Game - $450-$550
-                                            <br>Web Site - $350-$450
-                                            <br>Application - $250-$350
-                                            <br>We Can Work It Out!
+                                            <br><a href="http://localhost:8383/About%20Me%20Denis%20Makhlin/index.html">Portfolio 1</a>
+                                            <br><a href="http://localhost:8383/makhlind-potfolio-v2/index.html">Portfolio 2</a>
+                                            <br><a href="http://localhost:8383/Portfolio-3-master/index.html">Portfolio 3</a> 
+                                            <br><a href="http://localhost:8383/DM-Portfolio3/index.html">Portfolio 3 | jQuery</a>
+                                            <br>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            
+                            <!--Here is my second out of three containers this one has a differnet beginning div class-->
+                            
                             <div class="b2">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');"> 
                                     <div class="flipper">
+                                        
+                                        <!--Front of my flip container-->
+                                        
                                         <div id="front" class="front">
                                             <p id="pfront">
                                                 Snake | Game
                                                 <br><img id="imgturn"  src="http://cdn.flaticon.com/png/256/61149.png" height="150" width="150">                    
 
                                             </p></div>
+                                        
+                                        <!--Back of my flip container-->
+                                        
                                         <div class="back">
-                                            <p id="firstline">I Am Here For You</p>
+                                            <p id="firstline">Snake | Game</p>
                                             |Projects|
-                                            <p id="whaticandoforyou"><br><b>Web Site of Your Design Choice |</b> We Can Sit Down Together and Talk About The Way You Want YOUR Web Site To Look Like
-                                                <br>
-                                                <br><b>Small Mini Games of Your Choice |</b> We Can Sit Down and Talk About Any Mini Games You Want Me To Make For You | Examples - Snake, Mario, ETC
-                                                <br>
-                                                <br><b>Application of Your Web Site |</b> We Can Sit Down and Talk About An Application Version of Your Web Site and It Will All Be Personalized By Your Choices
-                                                <br>
-                                                <br>All For You!</p>
+                                            <p id="whaticandoforyou">
+                                                <br><a href="http://localhost:8383/Denis-Makhlin-Snake-Finished-master/index.html">Snake Game</a>
                                         </div>
                                     </div>
                                 </div>
+                                
+                                <!--My third flip container whith a b3 class as in the other were b1 and b2-->
+                                
                             </div>
                             <div class="b3">
                                 <div class="flip-container" ontouchstart="this.classList.toggle('hover');"> 
                                     <div class="flipper">
+                                        
+                                        <!--Front of my container-->
+                                        
                                         <div id="front" class="front">
                                             <p id="pfront">
                                                 Mario | Game
                                                 <br><img id="imgturn" src="http://www.iconarchive.com/download/i27120/ph03nyx/super-mario/Mario-Profile.ico" height="150" width="150">                    
 
                                             </p></div>
+                                        
+                                        <!--Back of my container-->
+                                        
                                         <div class="back">
-                                            <p id="firstline">Time Each Project Will Occupy</p>
+                                            <p id="firstline">Mario | Game</p>
                                             |Projects|
-                                            <br>Game - 3-4 Weeks
-                                            <br>Web Site - 1-2 Weeks
-                                            <br>Application - 2-3 Weeks
-                                            <br>Your Choice!
+                                            <br><a href="http://localhost:8383/MarioDenisMakhlin/index.html">Mario Game</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
 
+
                         </div>
-                        <p id="pdeals">I promise to fulfill my duty to you, making each 
-                            project you assign to me perfect with no mistakes. I may be 
-                            young, but age does not matter in computer coding. I promise 
-                            that my projects will always catch the users eye. This is my 
-                            goal for each project that you assign me to, and I promise to 
-                            fulfill it.</p>
+                        
+                        <!--Below is the code that describes the projects I have done so far in the year.-->
+                        
+                        <p id="pdeals">
+                            Freshman Year: Portfolio 1 - We were introduced to 
+                            the basics HTML5 and CSS3 to make a personal website.
+                            Portfolio 2 - We continued using HTML5 and CSS3, 
+                            however we were formally introduced to an addon called
+                            ,bootstrap. Portfolio 3 - We learned jQuery, a brand
+                            new language to us to make a user friendly animated
+                            website as our final portfolio for all four years.
+                            <br>
+                            Snake Game - As our third project of the year, we 
+                            learned javascript to make the classic snake game.
+                            Mario Game- As our fourth project of the year
+                            we combined our original skill with javascript
+                            to make the classic mario game using Melon JS.
+                            
+                        </p>
 
                         <p id="pindex2">Mobile | Game | Web | Developer</p>
 
-                        <footer>
-
-                        </footer>
+                        <!--I put a closing body tag because in each of ,y little pages it is a new body-->
+                        
                         </body>
                         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
                         <script src="js/bootstrap.min.js"></script>  
@@ -240,15 +323,22 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     <div id="contactme">
         <div >
         </div>
-        
 
+        <!--My third part of my accordion web-page named collapse 3-->
+        
         
         <div id="collapseThree">
             <div class="panel-body">
+                
+                <!--I placed my header again in a jumbotron to have its own column-->
+                
                 <div class="jumbotron" id="jumbotron">
                     <div class="container">
                         <div id="header" class="row text-center">
                             <div id="logo">
+                                
+                                <!--Below is my header again in differnet span classes -- no animation-->
+                                
                                 <span id="danger">
                                     <span>T</span>
                                     <span>e</span>
@@ -269,8 +359,21 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                             </div>
 
                         </div>
-                       <ul id="ca-menu" class="ca-menu">
+                        
+                        <!--Below begins a new css menu that pops out on a hover-->
+                        
+                        <!--Everything was sat as a different class so it can be basic -->
+                        
+                        <ul id="ca-menu" class="ca-menu">
+                            
+                            <!--First <li> tag which allows the differnet sections-->
+                            
                             <li>
+                                
+                                <!--Every section has a link to it and it has an icon and a main and sub title-->
+                                
+                                <!--My HTML5 section-->
+                                
                                 <a href="http://www.w3schools.com/htmL/html5_intro.asp">
                                     <span class="ca-icon">F</span>
                                     <div class="ca-content">
@@ -280,6 +383,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                                 </a>
                             </li>
                             <li>
+                                
+                                <!--Every section has a link to it and it has an icon and a main and sub title-->
+                                
+                                <!--My CSS3 section-->
+                                
                                 <a href="http://www.w3schools.com/css/css3_intro.asp">
                                     <span class="ca-icon">H</span>
                                     <div class="ca-content">
@@ -288,6 +396,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                                     </div>
                                 </a>
                             </li>
+                            
+                            <!--Every section has a link to it and it has an icon and a main and sub title-->
+                            
+                            <!--My Bootstrap section-->
+                            
                             <li>
                                 <a href="http://getbootstrap.com/">
                                     <span class="ca-icon" id="heart">N</span>
@@ -297,6 +410,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                                     </div>
                                 </a>
                             </li>
+                            
+                            <!--Every section has a link to it and it has an icon and a main and sub title-->
+                            
+                            <!--My Javascript/Melon JS section-->
+                            
                             <li>
                                 <a href="http://www.w3schools.com/js/">
                                     <span class="ca-icon">K</span>
@@ -306,6 +424,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                                     </div>
                                 </a>
                             </li>
+                            
+                            <!--Every section has a link to it and it has an icon and a main and sub title-->
+                            
+                            <!--My jQuery Section-->
+                            
                             <li>
                                 <a href="http://jquery.com/">
                                     <span class="ca-icon">L</span>
@@ -318,24 +441,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                         </ul>
                     </div><!-- content -->
                 </div>
-                <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-                            <p id="pcontactme">
-                                I am available every weekend, and weekday 4:00 PM - 10:00 PM. My duty 
-                                is to make sure you, the customer, is happy and that is exactly what I 
-                                will be doing. I check my email everyday, and my cell-phone is always 
-                                available to me. Please take advantage of the offers that are being 
-                                handed to you
-                            </p>
-                            <p id="pindex2">Mobile | Game | Web | Developer</p>
+               
 
-                            </body>
-                            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-                            <script src="js/bootstrap.min.js"></script>  
-                        </div>
-                    </div>
-                </div>
+                 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+                </body>
+                
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                <script src="js/bootstrap.min.js"></script>  
             </div>
         </div>
     </div>
-
 </html>
